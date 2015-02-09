@@ -1,4 +1,4 @@
-/* Reference */
+/*Reference*/
 .reference {
   margin-top:0;
   margin-bottom:10px;
@@ -6,4 +6,27 @@
 .reference li {
 	padding-left:2em;
 }
-/* End of Reference */
+.ref-author{
+	font-weight:bold;
+}
+.ref-author:after,
+.ref-pub-year:after,
+.ref-title:after,
+.ref-journal:after{
+	content: '. ';
+}
+.ref-vol:after
+{
+	content: ':';
+}
+.ref-vol{
+	font-weight:bold;
+}
+.supper{
+	vertical-align:super;
+	font-size:10px
+}
+.sub {
+	vertical-align:sub;
+	font-size:10px;
+}
