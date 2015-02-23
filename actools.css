@@ -30,3 +30,16 @@
 	vertical-align:sub;
 	font-size:10px;
 }
+/*user-friendly selection*/
+::-moz-selection{
+	background:rgba(0,75,146,.2);
+}
+::selection {
+	background:rgba(0,75,146,.2);
+}
+code::-moz-selection {
+	background:rgba(0,75,146,.2);
+}
+code::selection {
+	background:rgba(0,75,146,.2);
+}
